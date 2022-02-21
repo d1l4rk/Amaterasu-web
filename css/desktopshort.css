@@ -1,0 +1,154 @@
+.header__banner figure {
+    width: 60rem;
+    height: 50rem;
+    margin: 20rem;
+}
+
+.header h1 {
+    font-size: 8rem;
+}
+
+
+/* first section*/
+
+.main_about {
+    padding: 5rem 7rem 5rem 7rem;
+}
+
+.about__header h1 {
+    font-size: 8rem;    
+}
+
+.about__article--container {
+    margin-top: 0;
+}
+
+.about__paragraph--container {
+    display: flex;
+    /* flex: 1 1 100rem; */
+    /* width: 0; */
+}
+
+
+.about__paragraph--first {
+    font-size: 3rem;
+    margin: 0;
+    max-width: 80rem;
+    text-align: left;
+}
+
+.about__paragraph--second, .about__paragraph--third{
+    font-size: 1.8rem;
+    padding: 1rem;
+    margin: 0;
+    max-width: 40rem;
+    
+}
+.about__paragraph--second p{
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+.about__paragraph--third {
+    
+}
+
+
+/* second section */
+
+.main_service {
+    padding: 5rem 7rem 5rem 7rem;
+}  
+
+.slide {
+    max-height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    justify-content: baseline;
+    padding: 0 3rem 2rem 0;
+    user-select: none;
+}
+.m-amater--container,
+.m-cabeza--container,
+.m-piedra--container,
+.m-reju--container,
+.m-tejido--container,
+.m-kobido--container,
+.m-pies--container,
+.m-reductor-container,
+.m-chakra--container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+}
+
+.slide figure {
+    max-width: 60rem;
+    max-height: 30rem;
+    display: flex;
+}
+.slide h1 {
+    max-width: 60rem;
+    margin-top: 1rem;
+    font-size: 8rem;
+    text-align: center;
+}
+.slide p {
+    width: 80%;
+    margin-top: 4rem;
+    font-size: 2rem;
+    text-align: center;
+    align-self: center;
+}
+
+
+
+/* third section */
+.main_places {
+    padding: 5rem 7rem 5rem 7rem;
+}
+
+
+
+
+
+
+/* working with navegation on desktop */
+.nav{
+    display: none;
+}
+.nav--desktop ul{
+    position: fixed;
+    left: 3rem;
+    bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    z-index: 100;
+    background-color: #efefef;
+    border-radius: 5px;
+    padding: 2rem 1rem 2rem 1rem;    
+    
+}
+
+
+
+.tab {
+    padding: 1rem 2rem 1rem 2rem;
+    line-height: 1;
+    vertical-align: middle;
+    color: #333333;
+    font-weight: 600;
+    letter-spacing: 0.025em;
+    text-decoration: none;
+    font-family: 'Lora', sans-serif;
+    font-size: 1.6rem;
+  }
+  .active-tab {
+    background-color: #010101;
+    border-radius: 10px;
+    color: #fafafa;
+  }
