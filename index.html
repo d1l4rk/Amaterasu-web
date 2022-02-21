@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- mobile -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" media="(min-width: 360px) and (min-height: 666px)" href="css/others.css">
+    <link rel="stylesheet" media="(min-height: 800px)" href="css/tall.css">
+    <link rel="stylesheet" media="(min-width: 400px) and (min-height: 870px)" href="css/lastMobile.css">
+    <!-- tablet -->
+    <link rel="stylesheet" media="(min-width: 700px)" href="css/tablet.css">
+    <!-- desktop -->
+    <link rel="stylesheet" media="(min-width: 1200px)" href="css/desktop.css">
+
+    <title>Document</title>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+</head>
+
+<body>
+    <nav class="nav">
+        <header class="nav__header">
+            <h1>A</h1>
+        </header>
+        <div class="menu-mobile">
+            <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <ul class="menu-mobile__ul">
+                    <li><a href="#about">Amaterasu</a> </li>
+                    <li> <a href="#service">Servicios</a> </li>
+                    <li><a href="#places">Locales</a> </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+    </nav>
+    <nav class="nav--desktop">
+        <ul>
+            <li><a href="#about" class="tab active-tab" >Amaterasu</a> </li>
+            <li> <a href="#service" class="tab">Servicios</a> </li>
+            <li><a href="#places" class="tab">Locales</a> </li>
+        </ul>
+
+    </nav>
+
+    <header class="header">
+        <div class="banner-container">
+            <div class="header__banner">
+                <figure>
+                    <img src="img/masaje-reju.jpg" alt="">
+                </figure>
+                <figure>
+                    <img src="img/masaje-reductor.jpg" alt="">
+
+                </figure>
+                <figure>
+                    <img src="img/masaje-piedra.jpg" alt="">
+
+                </figure>
+                <figure>
+                    <img src="img/masaje-cabeza.jpg" alt="">
+                </figure>
+                <figure>
+                    <img src="img/masaje-reju.jpg" alt="">
+                </figure>
+                <figure>
+                    <img src="img/masaje-reductor.jpg" alt="">
+
+                </figure>
+                <figure>
+                    <img src="img/masaje-piedra.jpg" alt="">
+
+                </figure>
+                <figure>
+                    <img src="img/masaje-cabeza.jpg" alt="">
+                </figure>
+
+
+            </div>
+        </div>
+
+
+        <div class="header__div">
+            <h1>Amaterasu</h1>
+        </div>
+    </header>
+    <main>
+        <section id="about" class="main_about">
+            <div class="about__head">
+                <h2>Amaterasu</h2>
+                <span class="line"></span>
+            </div>
+            <article class="about__article">
+                <header class="about__header">
+                    <h1>La Magia de Sanar</h1>
+                </header>
+                <div class="about__article--container">
+                    <p class="about__paragraph--first">
+                        Masajes Terapéuticos y sanación alternativa
+                        <br>
+                        Cuerpo - Mente - Alma
+                    </p>
+                    <div class="about__paragraph--container">
+                        <p class="about__paragraph--second">
+                            Te damos la oportunidad de disfrutar de nuestros servicios de masaje corporal, faciales y
+                            cuidados
+                            restaurativos para la piel.Nuestros tratamientos incorporan remedios antiguos a base de hierbas
+                            medicinales y hierbas aromáticas para restaurar y reavivar la belleza interior y exterior del
+                            cuerpo.
+    
+                        </p>
+                        <p class="about__paragraph--third">
+                            “Junto con antiguos elixires también introducimos remedios modernos para la relajación y
+                            desintoxicación, creando tratamientos innovadores y terapéuticos para restaurar la paz interior
+                            y el
+                            bienestar total.”
+                        </p>
+                    </div>
+                </div>
+
+
+            </article>
+        </section>
+        <section id="service" class="main_service">
+            <div class="service__head">
+                <h2>Servicios</h2>
+                <span class="line"></span>
+            </div>
+            <div class="slider-container">
+                <div class="slide m-amater">
+                    <div class="m-amater--container">
+                        <h1>Masaje Amaterasu</h1>
+                        <figure>
+                            <img src="img/amaterasu.jpg" alt="">
+                        </figure>
+                    </div>
+
+                    <p>El nutritivo masaje Amaterasu es nuestro masaje característico que utiliza nuestras hierbas
+                        medicinales y aceites de masaje mezclados y elaborados con hiervas originales de la zona para
+                        calmar completamente la mente y rejuvenecer suavemente el cuerpo. Este es un masaje completo
+                        ideal para quienes se comprometen a mejorar su bienestar general, ya que ayuda a reequilibrar
+                        cuerpo y mente.</p>
+                </div>
+                <div class="slide m-cabeza">
+                    <div class="m-cabeza--container">
+                        <h1>Masaje de Cabeza Inka</h1>
+                        <figure>
+                            <img src="img/masaje-cabeza.jpg" alt="">
+                        </figure>
+                    </div>
+
+                    <p>Comenzando en una posición sentada, nuestro masaje inka de cabeza ayuda a aliviar la tensión
+                        inducida por el estrés en la cabeza, el cuello y los hombros. También se incluye un suave masaje
+                        facial de los nueve puntos faciales Marma.</p>
+                </div>
+                <div class="slide m-piedra">
+                    <div class="m-piedra--container">
+                        <h1>Masaje Con Piedras De Río Caliente</h1>
+                        <figure>
+                            <img src="img/masaje-piedra.jpg" alt="">
+                        </figure>
+                    </div>
+
+                    <p>Este poderoso masaje terapéutico con piedras de río caliente se utiliza rocas calientes
+                        cuidadosamente seleccionadas del propio río. Las piedras se deslizan a lo largo de los músculos,
+                        corrigiendo las tensiones en el nivel más profundo. La sensación de fusión promueve una profunda
+                        sensación de relajación.</p>
+                </div>
+                <div class="slide m-reju">
+                    <div class="m-reju--container">
+                        <h1>Masaje Rejuvenecedor</h1>
+                        <figure>
+                            <img src="img/masaje-reju.jpg" alt="">
+                        </figure>
+                    </div>
+
+                    <p>Este auténtico masaje indonesio utiliza aceites esenciales de hierbas medicinales y aromáticas
+                        tradicionales, para ayudar a rejuvenecer el cuerpo. Nuestros expertos incorporan movimientos
+                        tanto de amasar como de rodar, proporcionando un buen tratamiento terapéutico e induciendo una
+                        relajación profunda.</p>
+                </div>
+                <div class="slide m-tejido">
+                    <div class="m-tejido--container">
+                        <h1>Masaje de Tejido Profundo</h1>
+                        <figure>
+                            <img src="img/photo4.jpg" alt="">
+                        </figure>
+                    </div>
+
+                    <p>El masaje reparador de tejido profundo, relaja el cuerpo, lo drena de toxinas y permite la
+                        liberación de patrones de tensión profundamente arraigados. Las técnicas utilizadas durante este
+                        tratamiento relajante ayudan a aumentar el flujo sanguíneo y linfático, para que los músculos
+                        puedan volver a funcionar a plena capacidad.</p>
+                </div>
+                <div class="slide m-kobido">
+                    <div class="m-kobido--container">
+                        <h1>Facial Kobido</h1>
+                        <figure>
+                            <img src="img/facial-kobido.jpg" alt="">
+                        </figure>
+                    </div>
+
+                    <p>Nuestro facial Kobido con infusión de hierbas y barro medicinales del volcan comprende una
+                        antigua rutina de limpieza seguida de un lujoso masaje facial Gua sha diseñado para nutrir
+                        profundamente la piel. Ofrecemos este tratamiento en una versión de limpieza profunda o
+                        superhidratante, podemos personalizar el tratamiento para calmar la piel sensible o
+                        problemática. Promueve una piel sana y radiante, así como una función celular renovada.</p>
+                </div>
+                <div class="slide m-pies">
+                    <div class="m-pies--container">
+                        <h1>Masajes Pies Cansados</h1>
+                        <figure>
+                            <img src="img/masaje-pies.jpg" alt="">
+                        </figure>
+                    </div>
+
+                    <p>Los masajes de pies se han practicado durante cientos de años como una forma natural de aliviar
+                        la presión y el dolor en los mismos. Es importante cuidar los pies con regularidad, no solamente
+                        para reducir la posibilidad de un problema que pueda limitar la movilidad, sino también porque
+                        los pies están conectados por los canales de energía con todos los órganos del cuerpo.
+                        El masaje en los pies crea un poderoso efecto de relajación en el cuerpo, el cual es percibido
+                        de manera prácticamente instantánea.</p>
+                </div>
+                <div class="slide m-reductor">
+                    <div class="m-reductor-container">
+                        <h1>Masaje Reductor con Maderoterapia</h1>
+                        <figure>
+                            <img src="img/masaje-reductor.jpg" alt="">
+                        </figure>
+                    </div>
+
+                    <p>La Maderoterapia, una técnica alternativa para modelar nuestro cuerpo, una novedad en masajes
+                        reductores. Se trata de un tratamiento reductor y reafirmante en el que se usan instrumentos de
+                        madera
+                        impregnados en aceites esenciales. Indicada para tratar la celulitis, reafirmar, tonificar,
+                        reducir medidas y tornear el cuerpo.</p>
+                </div>
+                <div class="slide m-chakra">
+                    <div class="m-chakra--container">
+                        <h1>Nivelación de las Chakras</h1>
+                        <figure>
+                            <img src="img/chakra.jpg" alt="">
+                        </figure>
+                    </div>
+
+                    <p>Existe siete centros de energía principales (chakras) del cuerpo. Estos chakras son como
+                        espirales de energía, cada uno relativo a los demás. El uso de los siete colores del espectro,
+                        la terapia del color tiene como objetivo equilibrar y mejorar los centros de energía de nuestro
+                        cuerpo y también para ayudar a estimular el proceso de curación de nuestro cuerpo, mente y alma.
+                    </p>
+                </div>
+            </div>
+
+
+
+
+
+
+        </section>
+        <section id="places" class="main_places">
+            <div class="places__head">
+                <h2>Locales</h2>
+                <span class="line"></span>
+            </div>
+
+            <div class="places_container">
+                <article class="article__cusco">
+                    <h2>Cusco</h2>
+                    <figure>
+                        <img src="img/cusco.jpg" alt="">
+                    </figure>
+                    <p>Av. De la cultura <br> lote 3. Urb. Picol(Paradero Larapa) <br> San Jeronimo. <br> Reserva tu
+                        cita: <strong>979398170</strong> </p>
+                </article>
+                <article class="article__mapi">
+                    <h2>Machupicchu</h2>
+                    <figure>
+                        <img src="img/mapi.jpg" alt="">
+                    </figure>
+                    <p></p>
+                </article>
+
+
+            </div>
+
+
+
+
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+<script src="js/index.js"></script>
+<script src="js/navexpample.js"></script>
+
+
+
+</html>

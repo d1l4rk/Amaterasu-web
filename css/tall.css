@@ -1,0 +1,42 @@
+
+.header h1 {
+    font-size: 5rem;
+}
+
+
+.about__header h1 {
+    font-size: 5rem;
+    margin: 5rem 0 5rem 0;
+}
+.about__paragraph--first {
+    font-size: 2rem;
+    margin: 5rem 0 5rem 0;
+}
+.about__paragraph--second, .about__paragraph--third {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+
+.slide figure {
+    margin-top: 2rem;
+}
+.slide h1 {
+    margin-top: 5rem;
+}
+
+.slide p {
+    margin-top: 4rem;
+    font-size: 1.7rem;
+}
+
+
+.places_container h2 {
+    font-size: 4rem;
+    margin: 2rem 0 2rem 0;
+}
+
+.article__cusco,
+.article__mapi {
+    font-size: 1.7rem;
+}
