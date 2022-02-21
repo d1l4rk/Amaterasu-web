@@ -9,9 +9,6 @@
 }
 
 
-
-
-
 .about__article--container {
     display: flex;  
 }
@@ -19,50 +16,50 @@
 .about__header h1 {
     text-align: left;
     font-size: 6rem;
-    margin: 6rem 0 6rem 0;
+    margin: 5rem 0 6rem 0;
 }
 
 .about__paragraph--first {
     font-size: 4rem;
-    margin: 7rem 0 2rem 0;
+    margin: 3rem 0 2rem 0;
 }
 .about__paragraph--second, .about__paragraph--third{
     font-size: 2rem;
     padding: 2rem;
 }
 .about__paragraph--second {
-    margin: 7rem 0 2rem 5rem;
+    margin: 2rem 0 2rem 5rem;
 
 }
 .about__paragraph--third {
-    margin: 2rem 0 2rem 5rem;
+    margin: 1rem 0 2rem 5rem;
 }
 
 
 .slide figure {
-    width: 60rem;
-    height: 40rem;
+    width: 50rem;
+    height: 30rem;
     margin-top: 3rem;
 }
 .slide h1 {
-    margin-top: 6rem;
+    margin-top: 3rem;
     font-size: 5rem;
 }
 
 .slide p {
-    margin-top: 5rem;
+    margin-top: 3rem;
     font-size: 2rem;
 }
 
 
 .places_container figure {
-    width: 60rem;
-    height: 40rem;
+    width: 50rem;
+    height: 30rem;
 }
 
 .places_container h2 {
-    font-size: 5rem;
-    margin: 3rem 0 3rem 0;
+    font-size: 4rem;
+    margin: 0 0 3rem 0;
 }
 
 .article__cusco,
