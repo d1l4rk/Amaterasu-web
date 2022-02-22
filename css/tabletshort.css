@@ -52,7 +52,6 @@
 }
 
 .article__cusco--container {
-    display: flex;
     flex-direction: row; /*wtf */
 }
 .article__cusco figure {
