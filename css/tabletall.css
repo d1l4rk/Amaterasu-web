@@ -64,18 +64,19 @@
     font-size: 2rem;
 }
 
-
-.places_container figure {
-    width: 40rem;
-    height: 30rem;
+.article__cusco figure {
+    width: 35rem;
+    height: 25rem;
+    margin: 1rem;
+}
+.article__mapi figure {
+    width: 60rem;
+    height: 23rem;
+    margin: 2rem;
 }
 
-.places_container h2 {
-    font-size: 5rem;
-    margin: 0;
-}
 
-.article__cusco,
+.article__cusco,    
 .article__mapi {
     font-size: 1.6rem;
 }

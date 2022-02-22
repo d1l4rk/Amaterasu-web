@@ -50,11 +50,15 @@
     margin-top: 3rem;
     font-size: 2rem;
 }
-
-
-.places_container figure {
-    width: 50rem;
-    height: 30rem;
+.article__cusco figure {
+    width: 24rem;
+    height: 15rem;
+    margin: 0.5rem;
+}
+.article__mapi figure {
+    width: 48rem;
+    height: 16rem;
+    margin: 2rem;
 }
 
 .places_container h2 {

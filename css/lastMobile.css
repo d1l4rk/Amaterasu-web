@@ -30,6 +30,7 @@ section h2{
 }
 
 .places_container figure {
-    width: 30rem;
-    height: 20rem;
+    width: 26rem;
+    height: 15rem;
+    margin: 1rem;
 }

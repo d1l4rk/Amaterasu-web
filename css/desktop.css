@@ -112,7 +112,16 @@
     padding: 10rem 7rem 10rem 7rem;
 }
 
-
+.article__cusco figure {
+    width: 38rem;
+    height: 22rem;
+    margin: 1rem;
+}
+.article__mapi figure {
+    width: 70rem;
+    height: 20rem;
+    margin: 2rem;
+}
 
 
 
