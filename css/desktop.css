@@ -1,26 +1,26 @@
 .header__banner figure {
-    width: 80rem;
-    height: 60rem;
+    width: 60rem;
+    height: 50rem;
     margin: 20rem;
 }
 
 .header h1 {
-    font-size: 10rem;
+    font-size: 8rem;
 }
 
 
 /* first section*/
 
 .main_about {
-    padding: 10rem 7rem 10rem 7rem;
+    padding: 5rem 7rem 5rem 7rem;
 }
 
 .about__header h1 {
-    font-size: 10rem;    
+    font-size: 8rem;    
 }
 
 .about__article--container {
-    margin-top: 10rem;
+    margin-top: 0;
 }
 
 .about__paragraph--container {
@@ -38,8 +38,8 @@
 }
 
 .about__paragraph--second, .about__paragraph--third{
-    font-size: 2rem;
-    padding: 2rem;
+    font-size: 1.8rem;
+    padding: 1rem;
     margin: 0;
     max-width: 40rem;
     
@@ -57,7 +57,7 @@
 /* second section */
 
 .main_service {
-    padding: 10rem 7rem 10rem 7rem;
+    padding: 5rem 7rem 5rem 7rem;
 }  
 
 .slide {
@@ -87,19 +87,19 @@
 }
 
 .slide figure {
-    max-width: 80rem;
-    max-height: 40rem;
+    max-width: 60rem;
+    max-height: 30rem;
     display: flex;
 }
 .slide h1 {
-    max-width: 90rem;
+    max-width: 80rem;
     margin-top: 1rem;
-    font-size: 10rem;
+    font-size: 8rem;
     text-align: center;
 }
 .slide p {
     width: 80%;
-    margin-top: 10rem;
+    margin-top: 4rem;
     font-size: 2rem;
     text-align: center;
     align-self: center;
@@ -108,20 +108,26 @@
 
 
 /* third section */
-.main_places {
-    padding: 10rem 7rem 10rem 7rem;
+.places_container {
+    min-height: 100%;
 }
 
+.main_places {
+    padding: 5rem 7rem 5rem 7rem;
+}
 .article__cusco figure {
-    width: 38rem;
-    height: 22rem;
-    margin: 1rem;
+    display: flex;
+    width: 30rem;
+    height: 15rem;
+    margin: 0 1rem 0 1rem;
 }
 .article__mapi figure {
-    width: 70rem;
-    height: 20rem;
-    margin: 2rem;
+    display: flex;
+    width: 60rem;
+    height: 15rem;
+    margin: 0 1rem 0 1rem;
 }
+
 
 
 
@@ -155,9 +161,32 @@
     text-decoration: none;
     font-family: 'Lora', sans-serif;
     font-size: 1.6rem;
-  }
-  .active-tab {
+}
+.active-tab {
     background-color: #010101;
     border-radius: 10px;
     color: #fafafa;
-  }
+}
+
+
+@media (min-height: 800px) {
+    .header__banner figure {
+        width: 80rem;
+        height: 60rem;
+        margin: 20rem;
+    }
+    .about__header h1 {
+        font-size: 10rem;    
+    }
+
+    .main_about {
+        padding: 10rem 7rem 10rem 7rem;
+    }
+    /* .main_service {
+        padding: 10rem 7rem 10rem 7rem;
+    }   */
+    .main_places {
+        padding: 10rem 7rem 10rem 7rem;
+    }
+
+}
