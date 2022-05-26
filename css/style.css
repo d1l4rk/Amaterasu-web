@@ -373,8 +373,8 @@ a {
 
 .slide figure {
     padding: 1rem;
-    width: 30rem;
-    height: 20rem;
+    width: auto;
+    height: auto;
 }
 .slide img{
     width: 100%;
@@ -455,10 +455,6 @@ a {
     align-items: center;
 }
 
-/* .ts__cusco__container figure {
-    max-width: 20rem;
-    max-height: 20rem;
-} */
 .ts__cusco__container img,
 .ts__mapi img {
     width: 100%;
@@ -468,7 +464,6 @@ a {
 
 .ts__mapi {
     display: grid;
-    /* height: 50%; */
     justify-items: center;
     align-items: center;
     grid-template: 3rem min-content / 1fr;
@@ -493,7 +488,6 @@ button{
     width: 80%;
     height: 3.5rem;
     background-color: #ff5000;
-    /* border: 1px solid #FFE69A; */
     display: flex;
     left: 50%;
     transform: translateX(-50%);
