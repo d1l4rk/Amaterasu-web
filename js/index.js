@@ -1,11 +1,5 @@
-/* hamburger function*/
-function toggleMobileMenu(menu) {
-    menu.classList.toggle('open');
-}
-
-
 /* slider  */
-const slider = document.querySelector('.slider-container'),
+const slider = document.querySelector('.ss__container'),
       slides = Array.from(document.querySelectorAll('.slide'));
 
 
